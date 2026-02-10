@@ -26,9 +26,9 @@ const Contact = () => {
 
     // TODO: Replace with your actual EmailJS credentials
     // Get these from https://dashboard.emailjs.com/
-    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const serviceID = "service_fb6fjih";
+    const templateID = "template_k3vez1m";
+    const publicKey = "W-kkxFrKVUwrjiNej";
 
     const templateParams = {
       from_name: formData.name,
