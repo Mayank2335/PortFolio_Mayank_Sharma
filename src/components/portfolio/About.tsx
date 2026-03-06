@@ -54,28 +54,24 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm a <span className="text-foreground font-medium">Computer Science student at Kalvium</span> with 
-                hands-on experience in full-stack web development. I specialize in building real-world applications—not 
-                just following tutorials, but creating production-ready solutions that solve actual problems.
+                I'm a Computer Science student at <span className="text-foreground font-medium">Chitkara University, Baddi</span>, 
+                pursuing a specialized CSE program in partnership with <span className="text-primary font-medium">Kalvium</span>. 
+                I'm passionate about full-stack development and love building projects that solve real problems, moving beyond simple tutorials to create production-ready software.
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed">
-                My expertise spans the <span className="text-primary font-medium">MERN stack</span> (MongoDB, Express.js, 
-                React, Node.js), with deep knowledge of state management using Redux, secure authentication with JWT and 
-                Google OAuth, and modern UI development with Tailwind CSS.
+                I work extensively with the <span className="text-primary font-medium">MERN stack</span> (MongoDB, Express.js, 
+                React, Node.js) and have a solid grasp of state management with Redux. I also implement secure authentication using JWT and OAuth, and design responsive UIs with Tailwind CSS.
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Beyond web development, I'm actively exploring the intersection of software engineering and 
-                <span className="text-primary font-medium"> Generative AI</span>. I've worked on projects involving 
-                RAG pipelines, prompt engineering, and structured output generation—bridging traditional development 
-                with cutting-edge AI capabilities.
+                I'm also exploring <span className="text-primary font-medium">Generative AI</span>, working with 
+                RAG pipelines and prompt engineering to integrate AI capabilities into my applications.
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I also maintain a strong foundation in <span className="text-foreground font-medium">Data Structures 
-                & Algorithms</span> with Java and C++, which helps me write efficient, optimized code regardless of 
-                the technology stack.
+                My coding foundation is built on <span className="text-foreground font-medium">Data Structures 
+                & Algorithms</span> in Java and C++, ensuring I write efficient and optimized code.
               </p>
             </motion.div>
 

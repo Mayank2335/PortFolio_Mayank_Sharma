@@ -6,33 +6,33 @@ import { GraduationCap, Code, Rocket, Target, Zap } from 'lucide-react';
 const experiences = [
   {
     icon: GraduationCap,
-    title: 'Kalvium Software Engineering Program',
-    description: 'Intensive, industry-focused computer science curriculum with hands-on project development and real-world problem solving.',
-    highlights: ['Milestone-based learning', 'Industry mentorship', 'Project-first approach'],
+    title: 'CSE at Chitkara University (with Kalvium)',
+    description: 'Pursuing a specialized Computer Science Engineering degree that merges academic rigor with intensive, industry-aligned practical training.',
+    highlights: ['Full Stack Specialization', 'Work-integrated learning', 'Real-world project delivery'],
   },
   {
     icon: Code,
-    title: 'Daily Coding Practice',
-    description: 'Consistent practice in Data Structures & Algorithms with Java and C++, building a strong foundation for efficient problem-solving.',
-    highlights: ['DSA with Java & C++', 'Sorting & recursion', 'Stacks, queues & more'],
+    title: 'Data Structures & Algorithms',
+    description: 'Building a robust problem-solving foundation through consistent practice in Java and C++, focusing on efficiency and optimization.',
+    highlights: ['DSA with Java & C++', 'Algorithm optimization', 'Complex problem solving'],
   },
   {
     icon: Rocket,
-    title: 'Full Stack Development',
-    description: 'Building production-grade applications with the MERN stack, from database design to frontend deployment.',
-    highlights: ['MERN stack mastery', 'Authentication systems', 'RESTful APIs'],
+    title: 'Full Stack Engineering',
+    description: 'Develoing end-to-end, production-grade applications using the MERN stack, managing everything from database schema to responsive frontend interfaces.',
+    highlights: ['MERN stack proficiency', 'Secure authentication', 'RESTful API design'],
   },
   {
     icon: Target,
-    title: 'System Design Exposure',
-    description: 'Learning scalable architecture patterns and best practices for building maintainable, enterprise-grade applications.',
-    highlights: ['Scalability patterns', 'Database optimization', 'API design'],
+    title: 'System Design & Architecture',
+    description: 'Understanding and applying scalable architecture patterns to build maintainable, high-performance software systems.',
+    highlights: ['Scalable architecture', 'Database optimization', 'Clean code principles'],
   },
   {
     icon: Zap,
-    title: 'Generative AI Exploration',
-    description: 'Diving into the cutting edge of AI with practical projects in prompt engineering, RAG systems, and AI integration.',
-    highlights: ['RAG pipelines', 'Prompt engineering', 'Function calling'],
+    title: 'AI Engineering & Innovation',
+    description: 'Actively building with Generative AI technologies, implementing RAG pipelines and custom prompt engineering to enhance application intelligence.',
+    highlights: ['RAG implementation', 'Prompt engineering', 'AI integration'],
   },
 ];
 

@@ -20,7 +20,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      // Determine active section
       const sections = navItems.map(item => item.href.slice(1));
       for (const section of sections.reverse()) {
         const element = document.getElementById(section);
@@ -49,14 +48,13 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed z-50 transition-all duration-500 ease-in-out ${
+      className={`fixed z-50 transition-all duration-300 ease-in-out top-0 left-0 right-0 w-full ${
         isScrolled 
-          ? 'top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl rounded-full glass-card py-3 border border-primary/20 shadow-lg shadow-primary/10' 
-          : 'top-0 left-0 right-0 w-full py-6 bg-transparent'
+          ? 'py-4 bg-background/80 backdrop-blur-md border-b border-white/10 shadow-md' 
+          : 'py-6 bg-transparent'
       }`}
     >
-      <nav className={`container mx-auto flex items-center justify-between ${isScrolled ? 'px-2' : 'px-6'}`}>
-        {/* Logo */}
+      <nav className="container mx-auto px-6 flex items-center justify-between">
         <motion.a
           href="#"
           className="text-2xl font-bold"
@@ -68,8 +66,7 @@ const Navbar = () => {
           <span className="text-primary">/&gt;</span>
         </motion.a>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-4 lg:gap-8">
           {navItems.map((item, index) => (
             <motion.button
               key={item.name}
@@ -77,7 +74,7 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
               onClick={() => handleNavClick(item.href)}
-              className={`nav-link text-sm font-medium transition-colors hover:text-primary relative group ${
+              className={`nav-link text-sm font-medium transition-colors hover:text-primary relative group whitespace-nowrap ${
                 activeSection === item.href.slice(1) ? 'text-primary' : 'text-muted-foreground'
               }`}
             >
@@ -100,7 +97,7 @@ const Navbar = () => {
             <Button 
               variant="outline" 
               size="sm" 
-              className="gap-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-6"
+              className="gap-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-4 lg:px-6 whitespace-nowrap"
               asChild
             >
               <a href="/resume.pdf" download="Mayank_Sharma_Resume.pdf">
@@ -111,7 +108,6 @@ const Navbar = () => {
           </motion.div>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden text-foreground p-2"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -120,7 +116,6 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
