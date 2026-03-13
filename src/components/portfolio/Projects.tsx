@@ -60,33 +60,7 @@ const projects: Project[] = [
     live: 'https://floodsense23.vercel.app',
     featured: true,
   },
-  {
-    title: 'Full Stack E-Commerce Platform',
-    description: 'A comprehensive e-commerce solution with complete user authentication, product management, shopping cart functionality, and order management system.',
-    features: [
-      'User authentication (JWT + Google login)',
-      'Product management & search',
-      'Cart & order management',
-      'Cancel order feature',
-      'Redux global state management',
-    ],
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT'],
-    github: 'https://github.com/Mayank2335',
-    featured: true,
-  },
-  {
-    title: 'Gen AI Course Project',
-    description: 'Comprehensive exploration of Generative AI concepts including prompt engineering, RAG systems, and structured output generation.',
-    features: [
-      'System & user prompting',
-      'RAG pipeline implementation',
-      'Function calling',
-      'Structured JSON output',
-    ],
-    tech: ['Python', 'LangChain', 'OpenAI', 'RAG'],
-    github: 'https://github.com/Mayank2335',
-    featured: true,
-  },
+
 ];
 
 const allTech = [...new Set(projects.flatMap(p => p.tech))];
