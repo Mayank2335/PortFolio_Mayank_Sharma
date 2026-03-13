@@ -16,6 +16,51 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: 'Nexora - Capstone Project',
+    description: 'A comprehensive full-stack capstone project demonstrating complete application development with user authentication, real-time features, and responsive design.',
+    features: [
+      'Full-stack architecture',
+      'User authentication & authorization',
+      'Real-time data synchronization',
+      'Responsive design',
+      'Database optimization',
+    ],
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'TypeScript'],
+    github: 'https://github.com/Mayank2335/S84_Mayank_Capstone_Nexora',
+    live: 'https://s84-mayank-capstone-nexora.vercel.app',
+    featured: true,
+  },
+  {
+    title: 'Chatzy - Real-time Chat Application',
+    description: 'A modern real-time messaging platform enabling seamless communication between users with intuitive interface and robust backend infrastructure.',
+    features: [
+      'Real-time messaging',
+      'User authentication',
+      'Message history & persistence',
+      'Online status indicators',
+      'Responsive UI',
+    ],
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
+    github: 'https://github.com/Mayank2335/Chatzy',
+    live: 'https://chatzy23.netlify.app',
+    featured: true,
+  },
+  {
+    title: 'FloodSense - Intelligent Flood Detection System',
+    description: 'An advanced disaster management system providing real-time flood monitoring, risk assessment, and early warning alerts to protect communities from flooding disasters.',
+    features: [
+      'Real-time flood data monitoring',
+      'Risk level assessment & visualization',
+      'Smart alert notifications',
+      'Interactive geospatial mapping',
+      'Historical data analytics',
+    ],
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Maps API'],
+    github: 'https://github.com/Mayank2335/FloodSense',
+    live: 'https://floodsense23.vercel.app',
+    featured: true,
+  },
+  {
     title: 'Full Stack E-Commerce Platform',
     description: 'A comprehensive e-commerce solution with complete user authentication, product management, shopping cart functionality, and order management system.',
     features: [
@@ -28,32 +73,6 @@ const projects: Project[] = [
     tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT'],
     github: 'https://github.com/Mayank2335',
     featured: true,
-  },
-  {
-    title: 'Bhaad Suraksha Dal - Flood Alert System',
-    description: 'A disaster safety system providing real-time flood data visualization and early warning alerts to help communities prepare for natural disasters.',
-    features: [
-      'Real-time flood data integration',
-      'Risk level visualization',
-      'Alert notification system',
-      'Interactive maps',
-    ],
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'APIs'],
-    github: 'https://github.com/Mayank2335',
-    featured: true,
-  },
-  {
-    title: 'MongoDB Entity-based Dataset',
-    description: 'A creative database project exploring "Most Ridiculous Things People Ever Searched on Google" with structured collections and schema design.',
-    features: [
-      'Structured MongoDB collections',
-      'Schema design patterns',
-      'Dummy frontend component',
-      'Data visualization',
-    ],
-    tech: ['MongoDB', 'Node.js', 'React'],
-    github: 'https://github.com/Mayank2335',
-    featured: false,
   },
   {
     title: 'Gen AI Course Project',
